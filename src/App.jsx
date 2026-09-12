@@ -1,10 +1,10 @@
-
+import MainLayout from './components/layout/MainLayout'
 
 function App() {
 
   return (
     <>
-      Pense:- A expense Trackor App!
+    <MainLayout/>
     </>
   )
 }

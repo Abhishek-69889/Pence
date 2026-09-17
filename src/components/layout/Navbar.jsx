@@ -3,7 +3,7 @@ import { Bell,Search } from 'lucide-react';
 
 const Navbar = () => {
   return (
-    <nav className='w-full bg-white py-4 px-10 flex justify-between items-center fixed z-10'>
+    <nav className='bg-white w-full flex gap-55 py-4 px-10  fixed z-10'>
 
 
       <div className='w-120 h-8  bg-[#e5e3db] flex items-center rounded-2xl px-1'>
@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
 
 
-      <div className='flex gap-3 items-center'>
+      <div className='flex gap-3 items-center ml-50'>
         <Bell 
         className='cursor-pointer'
         />
@@ -32,7 +32,7 @@ const Navbar = () => {
         alt="profile" 
         className='w-8 h-8 bg-black rounded-2xl overflow-hidden object-cover cursor-pointer'
         />
-        <h3 className='text-xl whitespace-nowrap font-bold'>Abhishek Tiwari</h3>
+        <h3 className='text-sm whitespace-nowrap font-bold'>Abhishek Tiwari</h3>
       </div>
 
 

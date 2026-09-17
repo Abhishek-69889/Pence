@@ -1,5 +1,6 @@
 
 import { House , NotebookTabs,LayersPlus,CalendarPlus2,ChartSpline,Settings } from "lucide-react"
+import { Link } from "react-router-dom"
 
 const Sidebar = () => {
   return (
@@ -16,15 +17,27 @@ const Sidebar = () => {
             />
             <h2 className="text-3xl font-bold text-gray-500">Pence</h2>
           </li>
-          <li 
-          className="flex gap-5 cursor-pointer list-none items-center hover:bg-gray-500  p-2 rounded-2xl">
+          <li>
+            <Link
+            className="flex gap-5 cursor-pointer list-none items-center hover:bg-gray-500  p-2 rounded-2xl"
+            to="/"
+            >
+            
             <House  />
             <h2>Dashboard</h2>
+            </Link>
           </li>
           <li 
-          className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl">
+          >
+            <Link
+            to="/applications"
+            className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl"
+            
+            >
+            
             <NotebookTabs  />
             <h2>Application</h2>
+            </Link>
           </li>
           <li 
           className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl">

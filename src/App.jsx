@@ -4,6 +4,7 @@ import Navbar from './components/layout/Navbar'
 import Sidebar from './components/layout/Sidebar'
 import Dashboard from './pages/Dashboard'
 import Applications from './pages/Applications'
+import Add_Application from './pages/Add_Application'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Dashboard/>}/>
         <Route path='/applications' element={<Applications/>}/>
+        <Route path='/add_application' element={<Add_Application/>}/>
       </Routes>
         </div>
         

@@ -39,10 +39,13 @@ const Sidebar = () => {
             <h2>Application</h2>
             </Link>
           </li>
-          <li 
+          <li> 
+          <Link
+          to="/add_application"
           className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl">
             <LayersPlus />
             <h2>Add Application</h2>
+          </Link>
           </li>
           <li 
           className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl">

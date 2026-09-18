@@ -5,6 +5,9 @@ import Sidebar from './components/layout/Sidebar'
 import Dashboard from './pages/Dashboard'
 import Applications from './pages/Applications'
 import Add_Application from './pages/Add_Application'
+import Settings from './pages/Settings'
+import Calender from './pages/Calender'
+import Analytics from './pages/Analytics'
 
 function App() {
 
@@ -22,6 +25,9 @@ function App() {
         <Route path='/' element={<Dashboard/>}/>
         <Route path='/applications' element={<Applications/>}/>
         <Route path='/add_application' element={<Add_Application/>}/>
+        <Route path='/settings' element={<Settings/>}/>
+        <Route path='/calender' element={<Calender/>}/>
+        <Route path='/analytics' element={<Analytics/>}/>
       </Routes>
         </div>
         

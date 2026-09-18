@@ -47,20 +47,32 @@ const Sidebar = () => {
             <h2>Add Application</h2>
           </Link>
           </li>
-          <li 
-          className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl">
+          <li>
+            <Link
+            to='/calender'
+          className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl"
+          >
             <CalendarPlus2 />
             <h2>Calendar</h2>
+            </Link>
           </li>
-          <li 
-          className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl">
+          <li>
+            <Link
+            to='/analytics'
+          className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl"
+          >
             <ChartSpline />
             <h2>Analytics</h2>
+            </Link>
           </li>
-          <li 
-          className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl">
+          <li>
+            <Link
+            to="/settings"
+          className="flex gap-3 cursor-pointer list-none items-center hover:bg-gray-500 p-2 rounded-2xl"
+            >
             <Settings />
             <h2>Settings</h2>
+            </Link>
           </li>
         </ul>
 

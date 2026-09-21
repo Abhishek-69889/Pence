@@ -48,6 +48,13 @@ const Applications = () => {
     dateOfApply: "2026-09-08",
     status: "Interview"
   },
+{
+    companyLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEJANb0XItp3xw1MB-dF4ccHxxCtgDc7auj-nAXlk-vw&s=10",
+    companyName: "Microsoft",
+    role: "Software Engineer II",
+    dateOfApply: "2026-09-03",
+    status: "Pending"
+  },
   {
     companyLogo: "https://cdn.simpleicons.org/meta",
     companyName: "Meta",

@@ -65,6 +65,7 @@ const Dashboard = () => {
 
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
   const elegantDate = today.toLocaleDateString('en-US', options);
+  
   return (
     <>
     <div className="">
